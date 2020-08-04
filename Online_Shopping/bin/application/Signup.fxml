@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="425.0" prefWidth="444.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignupController">
+   <children>
+      <Label layoutX="27.0" layoutY="12.0" text="SIGN UP" textFill="#8d8c8c">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="27.0" layoutY="75.0" text="Firstname : " />
+      <TextField fx:id="firstname" layoutX="115.0" layoutY="70.0" prefHeight="31.0" prefWidth="286.0" />
+      <Label layoutX="27.0" layoutY="116.0" text="Lastname :  " />
+      <TextField fx:id="lastname" layoutX="115.0" layoutY="110.0" prefHeight="31.0" prefWidth="286.0" />
+      <Label layoutX="27.0" layoutY="156.0" text="e-mail :  " />
+      <TextField fx:id="email" layoutX="115.0" layoutY="150.0" prefHeight="31.0" prefWidth="286.0" />
+      <Label layoutX="27.0" layoutY="196.0" text="Phone : " />
+      <TextField fx:id="phone" layoutX="115.0" layoutY="191.0" prefHeight="31.0" prefWidth="286.0" />
+      <Label layoutX="27.0" layoutY="237.0" text="Address :  " />
+      <TextField fx:id="address" layoutX="115.0" layoutY="230.0" prefHeight="31.0" prefWidth="286.0" />
+      <Separator layoutX="5.0" layoutY="278.0" prefHeight="8.0" prefWidth="430.0" />
+      <Separator layoutX="5.0" layoutY="53.0" prefHeight="8.0" prefWidth="430.0" />
+      <Label layoutX="27.0" layoutY="302.0" text="Username :  " />
+      <TextField fx:id="username" layoutX="115.0" layoutY="298.0" prefHeight="31.0" prefWidth="286.0" />
+      <Label layoutX="27.0" layoutY="342.0" text="Password  :  " />
+      <PasswordField fx:id="password" layoutX="115.0" layoutY="337.0" prefHeight="31.0" prefWidth="286.0" />
+      <Button fx:id="button_signup" layoutX="330.0" layoutY="380.0" mnemonicParsing="false" onAction="#signup" text="Sign up" />
+   </children>
+</AnchorPane>

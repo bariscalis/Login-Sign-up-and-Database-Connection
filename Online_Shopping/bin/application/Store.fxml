@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StoreController">
+   <children>
+      <WebView fx:id="web_view" layoutX="259.0" layoutY="4.0" prefHeight="691.0" prefWidth="987.0" />
+      <Separator layoutX="252.0" layoutY="9.0" orientation="VERTICAL" prefHeight="675.0" />
+      <Label layoutX="31.0" layoutY="8.0" text="SPACE SHOPPING" textFill="#11bfed">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="16.0" layoutY="51.0" prefWidth="225.0" />
+      <Label layoutX="95.0" layoutY="62.0" text="Welcome" />
+      <Label fx:id="lbl_name" alignment="CENTER" contentDisplay="CENTER" layoutX="4.0" layoutY="91.0" prefHeight="21.0" prefWidth="245.0" text="..." textAlignment="CENTER" textFill="#d689eb" />
+      <Separator layoutX="14.0" layoutY="129.0" prefWidth="225.0" />
+      <Label layoutX="97.0" layoutY="162.0" text="HOME" textFill="#6f6d6d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="216.0" text="SHOP" textFill="#6f6d6d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="269.0" text="PRODUCT" textFill="#6f6d6d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="317.0" text="SALES" textFill="#6f6d6d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="370.0" text="NEW" textFill="#6f6d6d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="14.0" layoutY="425.0" prefWidth="225.0" />
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="5.0" layoutY="464.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/shopping-cart.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="91.0" layoutY="479.0" text="CART(0)" textFill="#6f6d6d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="57.0" fitWidth="58.0" layoutX="12.0" layoutY="541.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/star.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="77.0" layoutY="558.0" text="FAVOURITE" textFill="#6f6d6d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="57.0" fitWidth="58.0" layoutX="12.0" layoutY="610.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/search.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="90.0" layoutY="625.0" text="SEARCH" textFill="#6f6d6d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
