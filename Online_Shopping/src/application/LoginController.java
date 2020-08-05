@@ -48,9 +48,9 @@ public class LoginController {
 			while (result.next()) {
 				if (
 					// login with username or email address
-					(username.getText().equals(result.getString("username")) & 
-					password.getText().equals(result.getString("password"))) |
-					(username.getText().equals(result.getString("email")) & 
+					(username.getText().equals(result.getString("username")) && 
+					password.getText().equals(result.getString("password"))) ||
+					(username.getText().equals(result.getString("email")) && 
 					password.getText().equals(result.getString("password")))
 				   ){
 					user_found = true;
